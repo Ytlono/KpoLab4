@@ -39,7 +39,7 @@
             }
             Search(sentences);
             PopulateConcordance();
-            Print();
+            PrintConcordance();
         }
 
         public void Search(List<Sentence> sentences)
@@ -68,16 +68,20 @@
             }
         }
 
-        public void Print()
+        public void PrintConcordance()
         {
-            foreach (var word in uniqueWords)
+            foreach (var entry in ConcordanceData)
             {
-                Console.Write("{0,-20} {1} : ", word.ToString(), word.Frequency);
+                string word = entry.Key;
+                int frequency = entry.Value.frequency;
+                SortedSet<int> sentenceNumbers = entry.Value.sentenceNumbers;
+
+                Console.Write("{0,-20} {1} : ", word, frequency);
 
                 int index = 0;
-                int totalSentences = word.SentenceNumbers.Count;
+                int totalSentences = sentenceNumbers.Count;
 
-                foreach (var sentNum in word.SentenceNumbers)
+                foreach (var sentNum in sentenceNumbers)
                 {
                     if (index == totalSentences - 1)
                     {
@@ -92,6 +96,7 @@
                 Console.WriteLine();
             }
         }
+
 
 
 

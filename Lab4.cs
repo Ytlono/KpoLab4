@@ -10,16 +10,22 @@ namespace Lab4
         private static void Menu()
         {
             Console.WriteLine("Menu:");
-            Console.WriteLine("1. Вывести все предложения в порядке возрастания количества слов.");
-            Console.WriteLine("2. Вывести все предложения в порядке возрастания длины предложения.");
-            Console.WriteLine("3. Найти слова заданной длины в вопросительных предложениях.");
-            Console.WriteLine("4. Удалить из текста все слова заданной длины, начинающиеся с согласной.");
-            Console.WriteLine("5. Заменить слова заданной длины на указанную подстроку.");
-            Console.WriteLine("6. Удалить стоп-слова из текста.");
-            Console.WriteLine("7. Экспортировать текст в XML-документ.");
-            Console.WriteLine("[ESC] -> Выход.\n");
+            Console.WriteLine("------------------------------------------------------------------------->");
+            Console.WriteLine("|1. Вывести все предложения в порядке возрастания количества слов.");
+            Console.WriteLine("|2. Вывести все предложения в порядке возрастания длины предложения.");
+            Console.WriteLine("|3. Найти слова заданной длины в вопросительных предложениях.");
+            Console.WriteLine("|4. Удалить из текста все слова заданной длины, начинающиеся с согласной.");
+            Console.WriteLine("|5. Заменить слова заданной длины на указанную подстроку.");
+            Console.WriteLine("|6. Удалить стоп-слова из текста.");
+            Console.WriteLine("|7. Экспортировать текст в XML-документ.");
+            Console.WriteLine("|8. Конкорданс (вывод на консоль и запись в <JSON> файл.");
+            Console.WriteLine("[ESC] -> Выход.");
+            Console.WriteLine("------------------------------------------------------------------------->");
             Console.Write("Выберите действие:\n");
-        } 
+            Console.WriteLine("------------------------------------------------------------------------->");
+
+        }
+
 
         public static void ExportToXml(Text text, string filePath)
         {
@@ -84,6 +90,7 @@ namespace Lab4
                         ExportToXml(tokenedText, XMLFile);
                         break;
                     case ConsoleKey.D8:
+                        Console.WriteLine("\nВы нажали 8\n\nКонкорданс:\n");
                         tokenedText.ConcordPrint();
                         break;
                     case ConsoleKey.Escape:
