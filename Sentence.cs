@@ -1,6 +1,6 @@
 ﻿using System.Xml.Serialization;
 
-namespace Lab3
+namespace Lab4
 {
     public enum SentenceTypes
     {

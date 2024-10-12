@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Text>
+    <Sentence>
+      <Tokens>
+        <Token xsi:type="Word">
+          <Word>Осень</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>наступила</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>неожиданно</Word>
+        </Token>
+        <Token xsi:type="Punctuation">
+          <Punctuation>,</Punctuation>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>и</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>воздух</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>стал</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>прохладнее</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>с</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>каждым</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>днём</Word>
+        </Token>
+        <Token xsi:type="Punctuation">
+          <Punctuation>.</Punctuation>
+        </Token>
+      </Tokens>
+    </Sentence>
+    <Sentence>
+      <Tokens>
+        <Token xsi:type="Word">
+          <Word>Утром</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>улицы</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>окутывал</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>густой</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>туман</Word>
+        </Token>
+        <Token xsi:type="Punctuation">
+          <Punctuation>,</Punctuation>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>который</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>скрывал</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>дома</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>и</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>деревья</Word>
+        </Token>
+        <Token xsi:type="Punctuation">
+          <Punctuation>.</Punctuation>
+        </Token>
+      </Tokens>
+    </Sentence>
+    <Sentence>
+      <Tokens>
+        <Token xsi:type="Word">
+          <Word>Люди</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>начали</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>доставать</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>тёплые</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>шарфы</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>и</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>куртки</Word>
+        </Token>
+        <Token xsi:type="Punctuation">
+          <Punctuation>,</Punctuation>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>не</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>правда</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>ли</Word>
+        </Token>
+        <Token xsi:type="Punctuation">
+          <Punctuation>?</Punctuation>
+        </Token>
+      </Tokens>
+    </Sentence>
+    <Sentence>
+      <Tokens>
+        <Token xsi:type="Word">
+          <Word>По</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>паркам</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>редко</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>гуляли</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>прохожие</Word>
+        </Token>
+        <Token xsi:type="Punctuation">
+          <Punctuation>,</Punctuation>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>а</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>детские</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>площадки</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>опустели</Word>
+        </Token>
+        <Token xsi:type="Punctuation">
+          <Punctuation>.</Punctuation>
+        </Token>
+      </Tokens>
+    </Sentence>
+    <Sentence>
+      <Tokens>
+        <Token xsi:type="Word">
+          <Word>Ветер</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>шуршал</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>в</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>опавших</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>листьях</Word>
+        </Token>
+        <Token xsi:type="Punctuation">
+          <Punctuation>,</Punctuation>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>и</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>собаки</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>лаяли</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>на</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>редких</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>прохожих</Word>
+        </Token>
+        <Token xsi:type="Punctuation">
+          <Punctuation>.</Punctuation>
+        </Token>
+      </Tokens>
+    </Sentence>
+    <Sentence>
+      <Tokens>
+        <Token xsi:type="Word">
+          <Word>Почему</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>же</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>с</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>приходом</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>осени</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>всё</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>стало</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>таким</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>тихим</Word>
+        </Token>
+        <Token xsi:type="Punctuation">
+          <Punctuation>?</Punctuation>
+        </Token>
+      </Tokens>
+    </Sentence>
+    <Sentence>
+      <Tokens>
+        <Token xsi:type="Word">
+          <Word>Вечерами</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>окна</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>домов</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>загорались</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>тёплым</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>светом</Word>
+        </Token>
+        <Token xsi:type="Punctuation">
+          <Punctuation>,</Punctuation>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>создавая</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>уютную</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>атмосферу</Word>
+        </Token>
+        <Token xsi:type="Punctuation">
+          <Punctuation>.</Punctuation>
+        </Token>
+      </Tokens>
+    </Sentence>
+    <Sentence>
+      <Tokens>
+        <Token xsi:type="Word">
+          <Word>На</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>скамейках</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>никто</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>не</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>сидел</Word>
+        </Token>
+        <Token xsi:type="Punctuation">
+          <Punctuation>,</Punctuation>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>и</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>лишь</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>ветер</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>шевелил</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>опавшие</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>листья</Word>
+        </Token>
+        <Token xsi:type="Punctuation">
+          <Punctuation>.</Punctuation>
+        </Token>
+      </Tokens>
+    </Sentence>
+    <Sentence>
+      <Tokens>
+        <Token xsi:type="Word">
+          <Word>Наступала</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>осень</Word>
+        </Token>
+        <Token xsi:type="Punctuation">
+          <Punctuation>,</Punctuation>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>и</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>природа</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>медленно</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>готовилась</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>к</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>зимнему</Word>
+        </Token>
+        <Token xsi:type="Word">
+          <Word>покою</Word>
+        </Token>
+        <Token xsi:type="Punctuation">
+          <Punctuation>.</Punctuation>
+        </Token>
+      </Tokens>
+    </Sentence>
+  </Text>
+</Text>

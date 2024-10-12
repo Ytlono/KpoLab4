@@ -1,7 +1,7 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace Lab3
-{
+namespace Lab4
+{   
     public class ParseII
     {
         private string inputFilePath { get; set;}

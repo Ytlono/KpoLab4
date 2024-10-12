@@ -83,6 +83,9 @@ namespace Lab4
                         Console.WriteLine("\nВы нажали 7\nЭкспорт текста в XML....");
                         ExportToXml(tokenedText, XMLFile);
                         break;
+                    case ConsoleKey.D8:
+                        tokenedText.ConcordPrint();
+                        break;
                     case ConsoleKey.Escape:
                         Console.Clear();
                         Console.WriteLine("Вы нажали Esc. Завершение программы.");

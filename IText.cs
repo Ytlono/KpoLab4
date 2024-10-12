@@ -1,4 +1,4 @@
-﻿namespace Lab3
+﻿namespace Lab4
 {
     internal interface IText
     {

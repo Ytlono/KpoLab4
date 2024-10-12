@@ -1,14 +1,15 @@
 ﻿using System.Text.RegularExpressions;
 using System.Xml.Serialization;
 
-namespace Lab3
+namespace Lab4
 {
     public class Text : IText
     {
         [XmlArray("Text")]
         [XmlArrayItem("Sentence")]
         public List<Sentence> sentenceTokenList { set; get; }
-
+        [XmlIgnore]
+        public Concordance concordance { set; get; }
         [XmlIgnore]
         private List<string> stopWords;
 
@@ -18,6 +19,7 @@ namespace Lab3
 
         public Text()
         {
+            concordance = new Concordance();
             sentenceTokenList = new List<Sentence>();
             LoadStopWordsFromFile(fileStopWords);
         }
@@ -144,6 +146,12 @@ namespace Lab3
             {
                 Console.WriteLine(sentence.ToString());
             }
+            Console.ReadKey(true);
+        }
+
+        public void ConcordPrint()
+        {
+            concordance.CreateUniqueList(sentenceTokenList);
             Console.ReadKey(true);
         }
     }

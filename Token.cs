@@ -1,8 +1,10 @@
 ﻿using System.Xml.Serialization;
 
-namespace Lab3
+namespace Lab4
 {
-    [XmlInclude(typeof(Token))]
+    [XmlInclude(typeof(Word))]
+    [XmlInclude(typeof(Punctuation))]
+
     public abstract class Token
     {
         [XmlIgnore]
