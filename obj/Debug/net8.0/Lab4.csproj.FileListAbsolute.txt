@@ -12,3 +12,4 @@ C:\KPO\Lab4\obj\Debug\net8.0\refint\Lab4.dll
 C:\KPO\Lab4\obj\Debug\net8.0\Lab4.pdb
 C:\KPO\Lab4\obj\Debug\net8.0\Lab4.genruntimeconfig.cache
 C:\KPO\Lab4\obj\Debug\net8.0\ref\Lab4.dll
+C:\KPO\Lab4\obj\Debug\net8.0\Lab4.sourcelink.json

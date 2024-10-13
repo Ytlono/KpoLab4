@@ -1,14 +1,18 @@
-﻿namespace Lab4
+﻿using System.Text.Encodings.Web;
+using System.Text.Json;
+
+namespace Lab4
 {
     public class Concordance
     {
         private Dictionary<string, (int frequency, SortedSet<int> sentenceNumbers)> concordance;
         private SortedSet<Word> uniqueWords;
 
-        public Concordance()
+        public Concordance(List<Sentence> sentences,string JSONFile)
         {
             concordance = new Dictionary<string, (int frequency, SortedSet<int> sentenceNumbers)>();
             uniqueWords = new SortedSet<Word>();
+            CreateUniqueList(sentences, JSONFile);
         }
 
         public Dictionary<string, (int frequency, SortedSet<int> sentenceNumbers)> ConcordanceData
@@ -23,7 +27,7 @@
             set { uniqueWords = value; }
         }
 
-        public void CreateUniqueList(List<Sentence> sentences)
+        public void CreateUniqueList(List<Sentence> sentences,string JSONFile)
         {
             foreach (var sentence in sentences)
             {
@@ -40,6 +44,7 @@
             Search(sentences);
             PopulateConcordance();
             PrintConcordance();
+            SaveToJson(JSONFile);
         }
 
         public void Search(List<Sentence> sentences)
@@ -98,7 +103,42 @@
         }
 
 
+        public void SaveToJson(string filePath)
+        {
+            // Преобразование словаря в более подходящий формат для сериализации
+            var serializedConcordance = new Dictionary<string, ConcordanceEntry>();
 
+            foreach (var entry in concordance)
+            {
+                // Преобразуем каждый элемент словаря в отдельный объект
+                serializedConcordance[entry.Key] = new ConcordanceEntry
+                {
+                    Frequency = entry.Value.frequency,
+                    SentenceNumbers = entry.Value.sentenceNumbers
+                };
+            }
+
+            // Сериализация словаря в JSON с настройками для русских символов
+            var options = new JsonSerializerOptions
+            {
+                WriteIndented = true,
+                Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping // Позволяет сохранять русские символы
+            };
+
+            string jsonString = JsonSerializer.Serialize(serializedConcordance, options);
+
+            // Запись JSON в файл
+            File.WriteAllText(filePath, jsonString);
+
+            Console.WriteLine("Конкорданс успешно сохранен в файл JSON.");
+        }
+
+
+        public class ConcordanceEntry
+        {
+            public int Frequency { get; set; }
+            public SortedSet<int> SentenceNumbers { get; set; }
+        }
 
     }
 

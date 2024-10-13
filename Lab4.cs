@@ -4,7 +4,8 @@ namespace Lab4
 {
     internal class Lab4
     {
-        private static string XMLFile = "exported.xml";
+        private static string XMLFile = "Exported.xml";
+        private static string JSONFile = "Concordance.json";
         private static string replacement = "***";
 
         private static void Menu()
@@ -91,7 +92,7 @@ namespace Lab4
                         break;
                     case ConsoleKey.D8:
                         Console.WriteLine("\nВы нажали 8\n\nКонкорданс:\n");
-                        tokenedText.ConcordPrint();
+                        tokenedText.ConcordPrint(JSONFile);
                         break;
                     case ConsoleKey.Escape:
                         Console.Clear();

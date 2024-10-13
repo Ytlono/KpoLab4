@@ -9,8 +9,6 @@ namespace Lab4
         [XmlArrayItem("Sentence")]
         public List<Sentence> sentenceTokenList { set; get; }
         [XmlIgnore]
-        public Concordance concordance { set; get; }
-        [XmlIgnore]
         private List<string> stopWords;
 
         [XmlIgnore]
@@ -19,7 +17,6 @@ namespace Lab4
 
         public Text()
         {
-            concordance = new Concordance();
             sentenceTokenList = new List<Sentence>();
             LoadStopWordsFromFile(fileStopWords);
         }
@@ -149,9 +146,9 @@ namespace Lab4
             Console.ReadKey(true);
         }
 
-        public void ConcordPrint()
+        public void ConcordPrint(string JSONFile)
         {
-            concordance.CreateUniqueList(sentenceTokenList);
+            Concordance concordance = new Concordance(sentenceTokenList,JSONFile);
             Console.ReadKey(true);
         }
     }
