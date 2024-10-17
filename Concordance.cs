@@ -108,7 +108,7 @@ namespace Lab4
             // Преобразование словаря в более подходящий формат для сериализации
             var serializedConcordance = new Dictionary<string, ConcordanceEntry>();
 
-            foreach (var entry in concordance)
+            foreach (var entry in ConcordanceData)
             {
                 // Преобразуем каждый элемент словаря в отдельный объект
                 serializedConcordance[entry.Key] = new ConcordanceEntry
