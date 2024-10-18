@@ -127,17 +127,14 @@ namespace Lab4
 
         public void RemoveStopWords()
         {
-            var filteredSentenceTokenList = new List<Sentence>(sentenceTokenList);
+            var filteredSentenceTokenList = new List<Sentence>();
+            filteredSentenceTokenList = sentenceTokenList;
 
             foreach (var sentence in filteredSentenceTokenList)
             {
                 sentence.Tokens.RemoveAll(token => token is Word word && stopWords.Contains(word.ToString()));
             }
-            Console.WriteLine("Оригинал:\n");
-            foreach (var sentence in sentenceTokenList)
-            {
-                Console.WriteLine(sentence.ToString());
-            }
+
             Console.WriteLine("Отредактированный:\n");
             foreach (var sentence in filteredSentenceTokenList)
             {

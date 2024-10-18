@@ -81,5 +81,6 @@ namespace Lab4
             if (other == null) return 1;
             return string.Compare(_word, other._word, StringComparison.Ordinal);
         }
+
     }
 }
